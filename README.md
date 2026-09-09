@@ -44,7 +44,7 @@ The objective of this project is to analyze Superstore sales data, identify busi
 - The analysis highlights opportunities to improve low-performing regions and product categories.
 
 ## Dashboard
-![Power BI Sales Dashboard](Dashboard_image.png)
+![Power BI Sales Dashboard](Screenshots/Dashboard_image.png)
 
 The Power BI dashboard provides an interactive view of:
 
