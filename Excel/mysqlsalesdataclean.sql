@@ -71,13 +71,6 @@ SELECT
     COUNT(*) AS total_rows,
     COUNT(DISTINCT row_id) AS unique_row_ids
 FROM cleanedsalesdata;
-TRUNCATE TABLE cleanedsalesdata;
-LOAD DATA LOCAL INFILE 'C:/Users/dell/Desktop/Data Analyst project/cleanedsalesdata.csv'
-INTO TABLE cleanedsalesdata
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n'
-IGNORE 1 ROWS;
 SELECT COUNT(*) AS total_rows
 FROM cleanedsalesdata;
 SELECT
